@@ -14,7 +14,6 @@ internal class LinqFilter
             Console.WriteLine($"- {todosGenerosMusicais[i]}");
         }
 
-        Menu.VoltarAoMenuPrincipal();
     }
 
 
@@ -29,7 +28,6 @@ internal class LinqFilter
             Console.WriteLine($"- {artistasDoGeneroMusical[i]}");
         }
 
-        Menu.VoltarAoMenuPrincipal();
     }
 
 
@@ -41,7 +39,7 @@ internal class LinqFilter
         {
             Console.WriteLine(musicasDoArtista[i].NomeDaMusica);
         }
-        Menu.VoltarAoMenuPrincipal();
+       
     }
 
 
@@ -55,6 +53,6 @@ internal class LinqFilter
             Console.WriteLine(musicasDoAno[i].NomeDaMusica);
             
         }
-        Menu.VoltarAoMenuPrincipal();
+        
     }
 }

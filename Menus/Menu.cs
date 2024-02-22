@@ -23,7 +23,7 @@ internal class Menu
         Console.WriteLine();
     }
 
-    public static void VoltarAoMenuPrincipal()
+    public static void ConfirmarRetornoAoMenuPrincipal()
     {
         Console.WriteLine("\nPressione qualquer tecla para voltar ao menu principal...");
         Console.ReadKey();

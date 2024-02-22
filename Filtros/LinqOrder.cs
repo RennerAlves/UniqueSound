@@ -13,6 +13,6 @@ internal class LinqOrder
         {
             Console.WriteLine($"- {artistasOrdenadosPeloNome[i]}");
         }
-        Menu.VoltarAoMenuPrincipal();
+        Menu.ConfirmarRetornoAoMenuPrincipal();
     }
 }

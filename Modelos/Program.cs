@@ -58,7 +58,8 @@ void ExibirOpcoesDoMenu()
 
             if (indiceDoMenuSelecionado > 0)
             {
-                ExibirOpcoesDoMenu();
+                Menu.ConfirmarRetornoAoMenuPrincipal();
+                ExibirOpcoesDoMenu();    
             }
 
         }
