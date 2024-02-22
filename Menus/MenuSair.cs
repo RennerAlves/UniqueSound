@@ -5,7 +5,7 @@ namespace Screen_Sound_04.Menus;
 
 internal class MenuSair : Menu
 {
-    public override void Executar(List<Musica> musica)
+    public override void Executar(List<Musica> ConjuntoDeMusicasDaAPI)
     {
         Console.WriteLine("Obrigado por usar nosso programa!");
     }
