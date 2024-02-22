@@ -14,7 +14,7 @@ internal class MenuFiltrarMusicasPorAno : Menu
         string ano = Console.ReadLine()!;
         Console.WriteLine($"\nAs músicas cadastradas nessa API do ano de {ano} são:\n");
 
-        LinqFilter.FiltrarMusicasPorAno(musica, ano);
+        LinqFilter.FiltrarMusicasDoAno(musica, ano);
         
     }
 }

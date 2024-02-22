@@ -5,9 +5,9 @@ namespace Screen_Sound_04.Filtros;
 
 internal class LinqFilter
 {
-    public static void FiltrarTodosGenerosMusicais(List<Musica> musicas)
+    public static void ExibirTodosGenerosMusicais(List<Musica> ConjuntoDeMusicasDaAPI)
     {
-        var todosGenerosMusicais = musicas.Select(m => m.GeneroMusical).Distinct().ToList();
+        var todosGenerosMusicais = ConjuntoDeMusicasDaAPI.Select(m => m.GeneroMusical).Distinct().ToList();
 
         for (int i = 0; i < todosGenerosMusicais.Count; i++)
         {
@@ -19,10 +19,10 @@ internal class LinqFilter
 
 
     //Precisamos filtrar todos os artistas ONDE o gênero deles é igual ao especificado.
-    public static void FiltrarArtistasPorGeneroMusical(List<Musica> musica, string GeneroMusical)
+    public static void FiltrarArtistasPorGeneroMusical(List<Musica> ConjuntoDeMusicasDaAPI, string GeneroMusicalEspecificado)
     {
-        var artistasDoGeneroMusical = musica.Where(m => m.GeneroMusical!.Contains(GeneroMusical))
-            .Select(m => m.artista).Distinct().ToList();
+        var artistasDoGeneroMusical = ConjuntoDeMusicasDaAPI.Where(musica => musica.GeneroMusical!.Contains(GeneroMusicalEspecificado))
+            .Select(musica => musica.artista).Distinct().ToList();
 
         for (int i = 0; i < artistasDoGeneroMusical.Count; i++)
         {
@@ -33,9 +33,9 @@ internal class LinqFilter
     }
 
 
-    public static void FiltrarMusicasDeUmArtista(List<Musica> musicas, string nomeDoArtista)
+    public static void FiltrarMusicasDeUmArtista(List<Musica> ConjuntoDeMusicasDaAPI, string nomeDoArtista)
     {
-        var musicasDoArtista = musicas.Where(m => m.artista!.Contains(nomeDoArtista)).ToList();
+        var musicasDoArtista = ConjuntoDeMusicasDaAPI.Where(musica => musica.artista!.Contains(nomeDoArtista)).ToList();
 
         for (int i = 0; i < musicasDoArtista.Count; i++)
         {
@@ -45,10 +45,10 @@ internal class LinqFilter
     }
 
 
-    public static void FiltrarMusicasPorAno(List<Musica> musicas, string ano)
+    public static void FiltrarMusicasDoAno(List<Musica> ConjuntoDeMusicasDaAPI, string ano)
     {
         int anoDaMusica = int.Parse(ano);
-        var musicasDoAno = musicas.Where(m => m.Ano == anoDaMusica).ToList();
+        var musicasDoAno = ConjuntoDeMusicasDaAPI.Where(m => m.Ano == anoDaMusica).ToList();
 
         for (int i = 0; i < musicasDoAno.Count; i++)
         {

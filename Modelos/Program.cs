@@ -44,19 +44,19 @@ void ExibirOpcoesDoMenu()
     Console.WriteLine("-1 para Sair");
 
     Console.Write("\nDigite a sua opção: ");
-    string MenuSolicitado = Console.ReadLine()!;
+    string menuSelecionadoPeloUsuario = Console.ReadLine()!;
 
     try
     {
 
-        int indiceDoMenuSolicitado = int.Parse(MenuSolicitado);
-        if (opcoesDoMenuPrincipal.ContainsKey(indiceDoMenuSolicitado))
+        int indiceDoMenuSelecionado = int.Parse(menuSelecionadoPeloUsuario);
+        if (opcoesDoMenuPrincipal.ContainsKey(indiceDoMenuSelecionado))
         {
 
-            Menu menuSolicitadoPeloUsuario = opcoesDoMenuPrincipal[indiceDoMenuSolicitado];
+            Menu menuSolicitadoPeloUsuario = opcoesDoMenuPrincipal[indiceDoMenuSelecionado];
             menuSolicitadoPeloUsuario.Executar(ConjuntoDeMusicasDaAPI);
 
-            if (indiceDoMenuSolicitado > 0)
+            if (indiceDoMenuSelecionado > 0)
             {
                 ExibirOpcoesDoMenu();
             }

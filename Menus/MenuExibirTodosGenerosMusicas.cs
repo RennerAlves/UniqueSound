@@ -14,7 +14,7 @@ internal class MenuExibirTodosGenerosMusicas : Menu
         Console.WriteLine("Os gêneros musicas disponíveis nessa API são:\n");
 
         
-        LinqFilter.FiltrarTodosGenerosMusicais(musica);
+        LinqFilter.ExibirTodosGenerosMusicais(musica);
         
 
     }
