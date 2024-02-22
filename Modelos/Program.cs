@@ -3,14 +3,14 @@ using Screen_Sound_04.Menus;
 using Screen_Sound_04.API;
 
 
-List<Musica> listaDeMusicasDaAPI = new();
+List<Musica> ConjuntoDeMusicasDaAPI = new();
 
-Dictionary<int, Menu> opcoes = new();
-opcoes.Add(1, new MenuExibirTodosGenerosMusicas());
-opcoes.Add(2, new MenuFiltrarArtistasPeloNome());
-opcoes.Add(3, new MenuFiltrarMusicasDeUmArtista());
-opcoes.Add(4, new MenuFiltrarMusicasPorAno());
-opcoes.Add(-1, new MenuSair());
+Dictionary<int, Menu> opcoesDoMenuPrincipal = new();
+opcoesDoMenuPrincipal.Add(1, new MenuExibirTodosGenerosMusicas());
+opcoesDoMenuPrincipal.Add(2, new MenuFiltrarArtistasPeloNome());
+opcoesDoMenuPrincipal.Add(3, new MenuFiltrarMusicasDeUmArtista());
+opcoesDoMenuPrincipal.Add(4, new MenuFiltrarMusicasPorAno());
+opcoesDoMenuPrincipal.Add(-1, new MenuSair());
 
 
 
@@ -44,21 +44,20 @@ void ExibirOpcoesDoMenu()
     Console.WriteLine("-1 para Sair");
 
     Console.Write("\nDigite a sua opção: ");
-    string opcaoEscolhida = Console.ReadLine()!;
+    string MenuSolicitado = Console.ReadLine()!;
 
     try
     {
 
-        int numeroOpcao = int.Parse(opcaoEscolhida);
-        if (opcoes.ContainsKey(numeroOpcao))
+        int indiceDoMenuSolicitado = int.Parse(MenuSolicitado);
+        if (opcoesDoMenuPrincipal.ContainsKey(indiceDoMenuSolicitado))
         {
 
-            Menu menuASerExibido = opcoes[numeroOpcao];
-            menuASerExibido.Executar(listaDeMusicasDaAPI);
+            Menu menuSolicitadoPeloUsuario = opcoesDoMenuPrincipal[indiceDoMenuSolicitado];
+            menuSolicitadoPeloUsuario.Executar(ConjuntoDeMusicasDaAPI);
 
-            if (numeroOpcao > 0)
+            if (indiceDoMenuSolicitado > 0)
             {
-                Console.Clear();
                 ExibirOpcoesDoMenu();
             }
 
@@ -83,7 +82,7 @@ void ExibirOpcoesDoMenu()
 
 
 
-listaDeMusicasDaAPI = await DesserializacaoDosDados.DesserializarDadosDaAPIJson(listaDeMusicasDaAPI);
+ConjuntoDeMusicasDaAPI = await DesserializacaoDosDados.DesserializarDadosDaAPIJson(ConjuntoDeMusicasDaAPI);
 ExibirOpcoesDoMenu();
 
 
