@@ -10,7 +10,7 @@ internal class MenuExibirTodosGenerosMusicas : Menu
     {
         base.Executar(musica);
         Console.Clear();
-        ExibirOpcaoDeTitulo("Exibir os Gêneros Musicais");
+        ExibirTituloFormatado("Exibir os Gêneros Musicais");
         Console.WriteLine("Os gêneros musicas disponíveis nessa API são:\n");
 
         

@@ -9,7 +9,7 @@ internal class MenuFiltrarMusicasDeUmArtista : Menu
     public override void Executar(List<Musica> musica)
     {
         base.Executar(musica);
-        ExibirOpcaoDeTitulo($"Exibir músicas de um artista");
+        ExibirTituloFormatado($"Exibir músicas de um artista");
         Console.Write("\nDigite o nome do artista que você deseja conhecer as músicas: ");
         string nomeDoArtista = Console.ReadLine()!;
 

@@ -9,7 +9,7 @@ internal class MenuFiltrarArtistasPeloNome : Menu
     public override void Executar(List<Musica> musica)
     {
         base.Executar(musica);
-        ExibirOpcaoDeTitulo("Artistas Filtrados Pelo Nome");
+        ExibirTituloFormatado("Artistas Filtrados Pelo Nome");
         Console.WriteLine("Os artistas disponíveis nessa API são:\n");
 
         LinqOrder.OrdenarArtistasPeloNome(musica);

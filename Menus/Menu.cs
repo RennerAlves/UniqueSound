@@ -14,12 +14,12 @@ internal class Menu
         Console.Clear();      
     }
 
-    public void ExibirOpcaoDeTitulo(string nome)
+    public void ExibirTituloFormatado(string tituloEscolhido)
     {
-        var titulo = string.Empty.PadLeft(nome.Length, '*');
-        Console.WriteLine(titulo);
-        Console.WriteLine(nome);
-        Console.WriteLine(titulo);
+        var asteriscosFormatados = string.Empty.PadLeft(tituloEscolhido.Length, '*');
+        Console.WriteLine(asteriscosFormatados);
+        Console.WriteLine(tituloEscolhido);
+        Console.WriteLine(asteriscosFormatados);
         Console.WriteLine();
     }
 
