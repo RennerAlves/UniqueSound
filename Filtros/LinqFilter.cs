@@ -21,7 +21,7 @@ internal class LinqFilter
     public static void FiltrarArtistasPorGeneroMusical(List<Musica> ConjuntoDeMusicasDaAPI, string GeneroMusicalEspecificado)
     {
         var artistasDoGeneroMusical = ConjuntoDeMusicasDaAPI.Where(musica => musica.GeneroMusical!.Contains(GeneroMusicalEspecificado))
-            .Select(musica => musica.artista).Distinct().ToList();
+            .Select(musica => musica.nomeDoArtista).Distinct().ToList();
 
         for (int i = 0; i < artistasDoGeneroMusical.Count; i++)
         {
@@ -33,7 +33,7 @@ internal class LinqFilter
 
     public static void FiltrarMusicasDeUmArtista(List<Musica> ConjuntoDeMusicasDaAPI, string nomeDoArtista)
     {
-        var musicasDoArtista = ConjuntoDeMusicasDaAPI.Where(musica => musica.artista!.Contains(nomeDoArtista)).ToList();
+        var musicasDoArtista = ConjuntoDeMusicasDaAPI.Where(musica => musica.nomeDoArtista!.Contains(nomeDoArtista)).ToList();
 
         for (int i = 0; i < musicasDoArtista.Count; i++)
         {

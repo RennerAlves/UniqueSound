@@ -11,7 +11,7 @@ namespace Screen_Sound_04.Modelos
     {
 
         [JsonPropertyName("artist")]
-        public string? artista { get; set; }
+        public string? nomeDoArtista { get; set; }
         [JsonPropertyName("song")]
         public string? NomeDaMusica { get; set; }
         [JsonPropertyName("duration_ms")]
@@ -33,7 +33,7 @@ namespace Screen_Sound_04.Modelos
 
         public void ExibirDetalhesDasMusicas()
         {
-            Console.WriteLine($"Artista: {artista}");
+            Console.WriteLine($"Artista: {nomeDoArtista}");
             Console.WriteLine($"Nome da Música: {NomeDaMusica}");
             Console.WriteLine($"Tempo de Duração: {TempoDeDuracao / 1000}");
             Console.WriteLine($"Gênero Musical: {GeneroMusical}");

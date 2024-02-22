@@ -6,8 +6,8 @@ internal class LinqOrder
 {
     public static void OrdenarArtistasPeloNome(List<Musica> ConjuntoDeMusicasDaAPI)
     {
-        var artistasOrdenadosPeloNome = ConjuntoDeMusicasDaAPI.OrderBy(musica => musica.artista).Select(musica => musica.artista).Distinct().ToList();
-        var artistasOrdenadosInversamentePeloNome = ConjuntoDeMusicasDaAPI.OrderByDescending(msuica => msuica.artista).Select(musica => musica.artista).Distinct().ToList();
+        var artistasOrdenadosPeloNome = ConjuntoDeMusicasDaAPI.OrderBy(musica => musica.nomeDoArtista).Select(musica => musica.nomeDoArtista).Distinct().ToList();
+        var artistasOrdenadosInversamentePeloNome = ConjuntoDeMusicasDaAPI.OrderByDescending(msuica => msuica.nomeDoArtista).Select(musica => musica.nomeDoArtista).Distinct().ToList();
 
         for (int i = 0; i < artistasOrdenadosPeloNome.Count; i++)
         {
