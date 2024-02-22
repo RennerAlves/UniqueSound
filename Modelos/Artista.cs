@@ -8,18 +8,19 @@ namespace Screen_Sound_04.Modelos
 {
     internal class Artista
     {
-        public Artista(string nome)
+        public Artista(string nomeDoArtista)
         {
-            Nome = nome;
+            NomeDoArtista = nomeDoArtista;
+            MusicasDoArtista = new();
         }
-        public string Nome { get;  }
+        public string NomeDoArtista { get;  }
 
-        private List<Musica> listaDeMusica;
-        public IEnumerable<Musica> ListaDeMusica => listaDeMusica;
+        private List<Musica> MusicasDoArtista;
+        public IEnumerable<Musica> ConjuntoDeMusicasDoArtista => MusicasDoArtista;
 
-        public void AdicionarMusica(Musica musica)
+        public void AdicionarMusica(Musica musicaASerAdicionada)
         {
-            listaDeMusica.Add(musica);
+            MusicasDoArtista.Add(musicaASerAdicionada);
         }
 
     }
