@@ -71,9 +71,9 @@ void ExibirOpcoesDoMenu()
             ExibirOpcoesDoMenu();
         }
     }
-    catch
+    catch (Exception ex)
     {
-        Console.WriteLine("Opção inválida! Tente novamente.");
+        Console.WriteLine(ex.Message);
         Thread.Sleep(2000);
         Console.Clear();
         ExibirOpcoesDoMenu();
