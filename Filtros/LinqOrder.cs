@@ -4,10 +4,10 @@ namespace Screen_Sound_04.Filtros;
 
 internal class LinqOrder
 {
-    public static void OrdenarArtistasPeloNome(List<Musica> musicas)
+    public static void OrdenarArtistasPeloNome(List<Musica> ConjuntoDeMusicasDaAPI)
     {
-        var artistasOrdenadosPeloNome = musicas.OrderBy(m => m.artista).Select(m => m.artista).Distinct().ToList();
-        var artistasOrdenadosInversamentePeloNome = musicas.OrderByDescending(m => m.artista).Select(m => m.artista).Distinct().ToList();
+        var artistasOrdenadosPeloNome = ConjuntoDeMusicasDaAPI.OrderBy(musica => musica.artista).Select(musica => musica.artista).Distinct().ToList();
+        var artistasOrdenadosInversamentePeloNome = ConjuntoDeMusicasDaAPI.OrderByDescending(msuica => msuica.artista).Select(musica => musica.artista).Distinct().ToList();
 
         for (int i = 0; i < artistasOrdenadosPeloNome.Count; i++)
         {
