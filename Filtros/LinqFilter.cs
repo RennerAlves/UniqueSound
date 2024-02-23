@@ -17,7 +17,8 @@ internal class LinqFilter
     }
 
 
-    //Precisamos filtrar todos os artistas ONDE o gênero deles é igual ao especificado.
+
+
     public static void FiltrarArtistasPorGeneroMusical(List<Musica> ConjuntoDeMusicasDaAPI, string GeneroMusicalEspecificado)
     {
         var artistasDoGeneroMusical = ConjuntoDeMusicasDaAPI.Where(musica => musica.GeneroMusical!.Contains(GeneroMusicalEspecificado))

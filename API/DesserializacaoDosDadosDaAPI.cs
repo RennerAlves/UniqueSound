@@ -8,21 +8,21 @@ internal class DesserializacaoDosDadosDaAPI
 {
 
 
-    public async static Task<List<Musica>> DesserializarDados(List<Musica> ConjuntoDeMusicasDaAPI)
+    public async static Task<List<Musica>> DesserializarDadosDaAPI(List<Musica> ConjuntoDeMusicasDaAPI)
     {
         HttpClient client = CriarHttpClient();
         return await ExtrairDadosDaAPI(client, ConjuntoDeMusicasDaAPI);
     }
 
 
-    public static HttpClient CriarHttpClient()
+    private static HttpClient CriarHttpClient()
     {
        return new HttpClient();
     }
 
 
 
-    public static async Task<List<Musica>> ExtrairDadosDaAPI(HttpClient client, List<Musica> ConjuntoDeMusicasDaAPI)
+    private static async Task<List<Musica>> ExtrairDadosDaAPI(HttpClient client, List<Musica> ConjuntoDeMusicasDaAPI)
     {
         try
         {
@@ -36,7 +36,7 @@ internal class DesserializacaoDosDadosDaAPI
     }
 
 
-    public async static Task<List<Musica>> ObterDadosClassificados(HttpClient client, List<Musica> ConjuntoDeMusicasDaAPI)
+    private async static Task<List<Musica>> ObterDadosClassificados(HttpClient client, List<Musica> ConjuntoDeMusicasDaAPI)
     {
             string dadosDaAPIJson = await client.GetStringAsync("https://guilhermeonrails.github.io/api-csharp-songs/songs.json");
             ConjuntoDeMusicasDaAPI = JsonSerializer.Deserialize<List<Musica>>(dadosDaAPIJson)!;
@@ -44,7 +44,7 @@ internal class DesserializacaoDosDadosDaAPI
     }
 
 
-    public async static Task<List<Musica>> FalhaNaConexaoComAPI(HttpClient client, List<Musica> ConjuntoDeMusicasDaAPI)
+    private async static Task<List<Musica>> FalhaNaConexaoComAPI(HttpClient client, List<Musica> ConjuntoDeMusicasDaAPI)
     {
         Console.WriteLine("Tentando fazer conexão com a API...");
         Thread.Sleep(1000);

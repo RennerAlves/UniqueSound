@@ -6,13 +6,27 @@ internal class LinqOrder
 {
     public static void OrdenarArtistasPeloNome(List<Musica> ConjuntoDeMusicasDaAPI)
     {
-        var artistasOrdenadosPeloNome = ConjuntoDeMusicasDaAPI.OrderBy(musica => musica.nomeDoArtista).Select(musica => musica.nomeDoArtista).Distinct().ToList();
-        var artistasOrdenadosInversamentePeloNome = ConjuntoDeMusicasDaAPI.OrderByDescending(msuica => msuica.nomeDoArtista).Select(musica => musica.nomeDoArtista).Distinct().ToList();
-
-        for (int i = 0; i < artistasOrdenadosPeloNome.Count; i++)
-        {
-            Console.WriteLine($"- {artistasOrdenadosPeloNome[i]}");
-        }
-        Menu.ConfirmarRetornoAoMenuPrincipal();
+        List<string?> artistasOrdenados = ObterNomesOrdenados(ConjuntoDeMusicasDaAPI);
+        ExibirArtistasOrdenados(artistasOrdenados);
     }
+
+    private static List<string?> ObterNomesOrdenados(List<Musica> ConjuntoDeMusicasDaAPI)
+    {
+        List<string?> artistasOrdenadosPeloNome = 
+            ConjuntoDeMusicasDaAPI.OrderBy(musica => musica.nomeDoArtista)
+            .Select(musica => musica.nomeDoArtista)
+            .Distinct()
+            .ToList();
+
+        return artistasOrdenadosPeloNome;
+    }
+
+    private static void ExibirArtistasOrdenados(List<string?> artistasOrdenados)
+    {
+        for (int i = 0; i < artistasOrdenados.Count; i++)
+        {
+            Console.WriteLine($"- {artistasOrdenados[i]}");
+        }
+    }
+
 }
