@@ -83,7 +83,7 @@ void ExibirOpcoesDoMenu()
 
 
 
-ConjuntoDeMusicasDaAPI = await DesserializacaoDosDados.DesserializarDadosDaAPIJson(ConjuntoDeMusicasDaAPI);
+ConjuntoDeMusicasDaAPI = await DesserializacaoDosDadosDaAPI.DesserializarDados(ConjuntoDeMusicasDaAPI);
 ExibirOpcoesDoMenu();
 
 

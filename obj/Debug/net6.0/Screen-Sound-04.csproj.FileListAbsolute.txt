@@ -12,3 +12,4 @@ C:\Users\renne\source\repos\Screen-Sound-04\obj\Debug\net6.0\refint\Screen-Sound
 C:\Users\renne\source\repos\Screen-Sound-04\obj\Debug\net6.0\Screen-Sound-04.pdb
 C:\Users\renne\source\repos\Screen-Sound-04\obj\Debug\net6.0\Screen-Sound-04.genruntimeconfig.cache
 C:\Users\renne\source\repos\Screen-Sound-04\obj\Debug\net6.0\ref\Screen-Sound-04.dll
+C:\Users\renne\source\repos\Screen-Sound-04\obj\Debug\net6.0\Screen-Sound-04.sourcelink.json

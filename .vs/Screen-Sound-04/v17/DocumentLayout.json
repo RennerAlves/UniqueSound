@@ -1,0 +1,72 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\api\\desserializacaodosdadosdaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:api\\desserializacaodosdadosdaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\menus\\menufiltrarartistaspelonome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:menus\\menufiltrarartistaspelonome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\modelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:modelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 535,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Program.cs",
+              "RelativeDocumentMoniker": "Modelos\\Program.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Program.cs",
+              "RelativeToolTip": "Modelos\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwEcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T17:35:19.923Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuFiltrarArtistasPeloNome.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Menus\\MenuFiltrarArtistasPeloNome.cs",
+              "RelativeDocumentMoniker": "Menus\\MenuFiltrarArtistasPeloNome.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Menus\\MenuFiltrarArtistasPeloNome.cs",
+              "RelativeToolTip": "Menus\\MenuFiltrarArtistasPeloNome.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T14:24:26.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DesserializacaoDosDadosDaAPI.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\API\\DesserializacaoDosDadosDaAPI.cs",
+              "RelativeDocumentMoniker": "API\\DesserializacaoDosDadosDaAPI.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\API\\DesserializacaoDosDadosDaAPI.cs",
+              "RelativeToolTip": "API\\DesserializacaoDosDadosDaAPI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T17:13:47.082Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
