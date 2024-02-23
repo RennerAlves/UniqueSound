@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Screen_Sound_04.Modelos
 {
-    internal class Musica
+    public class Musica
     {
 
         [JsonPropertyName("artist")]

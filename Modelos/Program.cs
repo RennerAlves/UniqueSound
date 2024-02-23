@@ -1,6 +1,10 @@
 ﻿using Screen_Sound_04.Modelos;
 using Screen_Sound_04.Menus;
 using Screen_Sound_04.API;
+using Screen_Sound_04.Abstract;
+using Screen_Sound_04.Factory;
+using Screen_Sound_04.Abstract.Products;
+
 
 
 List<Musica> ConjuntoDeMusicasDaAPI = new();
@@ -14,7 +18,9 @@ opcoesDoMenuPrincipal.Add(-1, new MenuSair());
 
 
 
-
+//IMenuFactory factory = new MenuFactory();
+//IMenu MenuGenerateJsonFile = factory.CreateMenuGenerateJsonFile();
+//MenuGenerateJsonFile.ExecutarAcao();
 
 
 void ExibirLogo()

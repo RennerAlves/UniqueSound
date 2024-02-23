@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace Screen_Sound_04.Menus;
 
-internal class Menu
+public class Menu
 {
     public virtual void Executar(List<Musica> musica)
     {
         Console.Clear();      
     }
 
-    public void ExibirTituloFormatado(string tituloEscolhido)
+    public static void ExibirTituloFormatado(string tituloEscolhido)
     {
         var asteriscosFormatados = string.Empty.PadLeft(tituloEscolhido.Length, '*');
         Console.WriteLine(asteriscosFormatados);
