@@ -10,5 +10,8 @@ namespace Screen_Sound_04.Abstract;
 public interface IMenuFactory
 {
     MenuGenerateJsonFile CreateMenuGenerateJsonFile();
-
+    MenuFilterSongsByArtists CreateMenuFilterSongsByArtists();
+    MenuOrderArtistsByName CreateMenuOrderArtistsByName();
+    MenuSoundsByYear CreateMenuSoundsByYear();
+    MusicGenresMenu CreateMusicGenresMenu();
 }

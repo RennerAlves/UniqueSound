@@ -3,7 +3,7 @@ using Screen_Sound_04.Menus;
 
 namespace Screen_Sound_04.Filtros;
 
-internal class LinqFilter
+public class LinqFilter
 {
     public static void ExibirTodosGenerosMusicais(List<Musica> ConjuntoDeMusicasDaAPI)
     {
@@ -44,9 +44,8 @@ internal class LinqFilter
     }
 
 
-    public static void FiltrarMusicasDoAno(List<Musica> ConjuntoDeMusicasDaAPI, string ano)
+    public static void FiltrarMusicasDoAno(List<Musica> ConjuntoDeMusicasDaAPI, int anoDaMusica)
     {
-        int anoDaMusica = int.Parse(ano);
         var musicasDoAno = ConjuntoDeMusicasDaAPI.Where(m => m.Ano == anoDaMusica).ToList();
 
         for (int i = 0; i < musicasDoAno.Count; i++)

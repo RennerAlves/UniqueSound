@@ -91,3 +91,11 @@ void ExibirOpcoesDoMenu()
 
 ConjuntoDeMusicasDaAPI = await DesserializacaoDosDadosDaAPI.DesserializarDadosDaAPI(ConjuntoDeMusicasDaAPI);
 ExibirOpcoesDoMenu();
+
+
+
+
+ void ExibirMenuPrincipal()
+{
+
+}

@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\modelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:modelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\menufactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\menufactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\products\\menugeneratejsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\products\\menugeneratejsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\api\\desserializacaodosdadosdaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:api\\desserializacaodosdadosdaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\menus\\menufiltrarartistaspelonome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:menus\\menufiltrarartistaspelonome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:menus\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\filtros\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:filtros\\linqorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\products\\menufiltersongsbyartists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\products\\menufiltersongsbyartists.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\api\\desserializacaodosdadosdaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:api\\desserializacaodosdadosdaapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\products\\menuorderartistsbyname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\products\\menuorderartistsbyname.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\menufactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\menufactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\products\\musicgenresmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\products\\musicgenresmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\abstract\\imenufactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,12 +47,20 @@
       "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:abstract\\products\\imenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:filtros\\linqfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\products\\menugeneratejsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\products\\menugeneratejsonfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\menus\\menufiltrarartistaspelonome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:menus\\menufiltrarartistaspelonome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\factory\\products\\menusoundsbyyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:factory\\products\\menusoundsbyyear.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\modelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:modelos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|solutionrelative:modelos\\musica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A13A8A0-B2B6-4DC9-B250-7F20E2BAA4BB}|Screen-Sound-04.csproj|c:\\users\\renne\\source\\repos\\screen-sound-04\\screen-sound-04.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -58,17 +74,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 535,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Program.cs",
               "RelativeDocumentMoniker": "Modelos\\Program.cs",
               "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Program.cs",
               "RelativeToolTip": "Modelos\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAArAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAgwGMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T17:35:19.923Z",
               "IsPinned": true,
@@ -76,137 +92,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "MenuFilterSongsByArtists.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuFilterSongsByArtists.cs",
+              "RelativeDocumentMoniker": "Factory\\Products\\MenuFilterSongsByArtists.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuFilterSongsByArtists.cs",
+              "RelativeToolTip": "Factory\\Products\\MenuFilterSongsByArtists.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T23:10:21.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MenuOrderArtistsByName.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuOrderArtistsByName.cs",
+              "RelativeDocumentMoniker": "Factory\\Products\\MenuOrderArtistsByName.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuOrderArtistsByName.cs",
+              "RelativeToolTip": "Factory\\Products\\MenuOrderArtistsByName.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T23:03:01.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MenuFactory.cs",
               "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\MenuFactory.cs",
               "RelativeDocumentMoniker": "Factory\\MenuFactory.cs",
               "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\MenuFactory.cs",
               "RelativeToolTip": "Factory\\MenuFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAhAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T17:52:58.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Musica.cs",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Musica.cs",
-              "RelativeDocumentMoniker": "Modelos\\Musica.cs",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Musica.cs",
-              "RelativeToolTip": "Modelos\\Musica.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAcAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T18:09:51.159Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Menus\\Menu.cs",
-              "RelativeDocumentMoniker": "Menus\\Menu.cs",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Menus\\Menu.cs",
-              "RelativeToolTip": "Menus\\Menu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:07:11.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MenuGenerateJsonFile.cs",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuGenerateJsonFile.cs",
-              "RelativeDocumentMoniker": "Factory\\Products\\MenuGenerateJsonFile.cs",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuGenerateJsonFile.cs",
-              "RelativeToolTip": "Factory\\Products\\MenuGenerateJsonFile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:36:08.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IMenu.cs",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\Products\\IMenu.cs",
-              "RelativeDocumentMoniker": "Abstract\\Products\\IMenu.cs",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\Products\\IMenu.cs",
-              "RelativeToolTip": "Abstract\\Products\\IMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T17:32:33.328Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IMenuFactory.cs",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\IMenuFactory.cs",
-              "RelativeDocumentMoniker": "Abstract\\IMenuFactory.cs",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\IMenuFactory.cs",
-              "RelativeToolTip": "Abstract\\IMenuFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T16:13:50.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Screen-Sound-04",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Screen-Sound-04.csproj",
-              "RelativeDocumentMoniker": "Screen-Sound-04.csproj",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Screen-Sound-04.csproj",
-              "RelativeToolTip": "Screen-Sound-04.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-02-23T16:09:19.212Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LinqOrder.cs",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqOrder.cs",
-              "RelativeDocumentMoniker": "Filtros\\LinqOrder.cs",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqOrder.cs",
-              "RelativeToolTip": "Filtros\\LinqOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:16:56.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LinqFilter.cs",
-              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqFilter.cs",
-              "RelativeDocumentMoniker": "Filtros\\LinqFilter.cs",
-              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqFilter.cs",
-              "RelativeToolTip": "Filtros\\LinqFilter.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T15:16:26.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "DesserializacaoDosDadosDaAPI.cs",
               "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\API\\DesserializacaoDosDadosDaAPI.cs",
               "RelativeDocumentMoniker": "API\\DesserializacaoDosDadosDaAPI.cs",
               "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\API\\DesserializacaoDosDadosDaAPI.cs",
               "RelativeToolTip": "API\\DesserializacaoDosDadosDaAPI.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-21T17:13:47.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "LinqOrder.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqOrder.cs",
+              "RelativeDocumentMoniker": "Filtros\\LinqOrder.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqOrder.cs",
+              "RelativeToolTip": "Filtros\\LinqOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T15:16:56.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LinqFilter.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqFilter.cs",
+              "RelativeDocumentMoniker": "Filtros\\LinqFilter.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Filtros\\LinqFilter.cs",
+              "RelativeToolTip": "Filtros\\LinqFilter.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAiwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T15:16:26.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Menus\\Menu.cs",
+              "RelativeDocumentMoniker": "Menus\\Menu.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Menus\\Menu.cs",
+              "RelativeToolTip": "Menus\\Menu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:07:11.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MenuFiltrarArtistasPeloNome.cs",
               "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Menus\\MenuFiltrarArtistasPeloNome.cs",
               "RelativeDocumentMoniker": "Menus\\MenuFiltrarArtistasPeloNome.cs",
@@ -216,6 +193,95 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T14:24:26.913Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MusicGenresMenu.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MusicGenresMenu.cs",
+              "RelativeDocumentMoniker": "Factory\\Products\\MusicGenresMenu.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MusicGenresMenu.cs",
+              "RelativeToolTip": "Factory\\Products\\MusicGenresMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T22:31:20.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMenuFactory.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\IMenuFactory.cs",
+              "RelativeDocumentMoniker": "Abstract\\IMenuFactory.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\IMenuFactory.cs",
+              "RelativeToolTip": "Abstract\\IMenuFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T16:13:50.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IMenu.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\Products\\IMenu.cs",
+              "RelativeDocumentMoniker": "Abstract\\Products\\IMenu.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Abstract\\Products\\IMenu.cs",
+              "RelativeToolTip": "Abstract\\Products\\IMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:32:33.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MenuGenerateJsonFile.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuGenerateJsonFile.cs",
+              "RelativeDocumentMoniker": "Factory\\Products\\MenuGenerateJsonFile.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuGenerateJsonFile.cs",
+              "RelativeToolTip": "Factory\\Products\\MenuGenerateJsonFile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T17:36:08.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MenuSoundsByYear.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuSoundsByYear.cs",
+              "RelativeDocumentMoniker": "Factory\\Products\\MenuSoundsByYear.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Factory\\Products\\MenuSoundsByYear.cs",
+              "RelativeToolTip": "Factory\\Products\\MenuSoundsByYear.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-24T00:35:59.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Screen-Sound-04.csproj",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Screen-Sound-04.csproj",
+              "RelativeDocumentMoniker": "Screen-Sound-04.csproj",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Screen-Sound-04.csproj",
+              "RelativeToolTip": "Screen-Sound-04.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-02-23T16:09:19.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Musica.cs",
+              "DocumentMoniker": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Musica.cs",
+              "RelativeDocumentMoniker": "Modelos\\Musica.cs",
+              "ToolTip": "C:\\Users\\renne\\source\\repos\\Screen-Sound-04\\Modelos\\Musica.cs",
+              "RelativeToolTip": "Modelos\\Musica.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wAcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T18:09:51.159Z"
             }
           ]
         }
